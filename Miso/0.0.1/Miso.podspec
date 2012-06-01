@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.source   = { :git => 'git@github.com:bazaarlabs/miso-ios-sdk.git' }
 
   s.platform        = :ios
-  s.source_files    = 'miso-ios-sdk/bin/*.h'
+  s.source_files    = 'bin/**/*.h'
   s.library         = 'miso'
   s.xcconfig        =  { 'LIBRARY_SEARCH_PATHS' => "$(SRCROOT)/Pods/Miso/bin" }
   
